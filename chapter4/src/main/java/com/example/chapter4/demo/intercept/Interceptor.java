@@ -1,7 +1,6 @@
 package com.example.chapter4.demo.intercept;
 
 import com.example.chapter4.demo.invoke.Invocation;
-import com.sun.jdi.InvocationException;
 
 import java.lang.reflect.InvocationTargetException;
 

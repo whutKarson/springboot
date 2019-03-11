@@ -11,7 +11,9 @@
 package com.example.chapter4.demo.service;
 
 import com.example.chapter4.demo.model.User;
+import org.springframework.stereotype.Service;
 
+@Service
 public interface UserService {
 
     public void printUser(User user);

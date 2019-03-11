@@ -10,7 +10,10 @@ package com.example.chapter4.demo.service.impl;
 
 import com.example.chapter4.demo.model.User;
 import com.example.chapter4.demo.service.UserService;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserServiceImpl implements UserService {
 
     @Override
